@@ -85,7 +85,7 @@
         <div class="cart__container">
             <article class="cart__card">
                 <div class="cart__box">
-                    <img src="../public/img/product/tshirtDesign.png" alt="" class="cart__img">
+                    <img src="../../public/img/product/tshirtDesign.png" alt="" class="cart__img">
                 </div>
 
                 <div class="cart__details">
@@ -114,7 +114,7 @@
             <!-- cart -->
             <article class="cart__card">
                 <div class="cart__box">
-                    <img src="../assets/img/product/Longsleeves.png" alt="" class="cart__img">
+                    <img src="../../public/img/product/Longsleeves.png" alt="" class="cart__img">
                 </div>
 
                 <div class="cart__details">
@@ -248,7 +248,7 @@
             <section class="products section container" id="products">
                         <div class="products__container grid">
                 <article class="products__card">
-                    <img src="../assets/img/product/satoru.png" alt="" class="products__img">
+                    <img src="../../public/img/product/satoru.png" alt="" class="products__img">
 
                     <h3 class="products__title">Satoru</h3>
                     <span class="products__price">Rp.50.000,00</span>
@@ -259,7 +259,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../assets/img/product/hoodieGojo.png" alt="" class="products__img">
+                    <img src="../../public/img/product/hoodieGojo.png" alt="" class="products__img">
 
                     <h3 class="products__title">Gojo Design</h3>
                     <span class="products__price">Rp.150.000,00</span>
@@ -270,7 +270,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../assets/img/product/varsity.png" alt="" class="products__img">
+                    <img src="../../public/img/product/varsity.png" alt="" class="products__img">
 
                     <h3 class="products__title">Varsity Custom</h3>
                     <span class="products__price">Rp.450.000,00</span>
@@ -281,7 +281,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../assets/img/product/MOON1.png" alt="" class="products__img">
+                    <img src="../../public/img/product/MOON1.png" alt="" class="products__img">
 
                     <h3 class="products__title">Moon Tshirt</h3>
                     <span class="products__price">Rp.55.000,00</span>
@@ -292,7 +292,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../assets/img/product/ghostrideHoodie.png" alt="" class="products__img">
+                    <img src="../../public/img/product/ghostrideHoodie.png" alt="" class="products__img">
 
                     <h3 class="products__title">Ghost Ride Hoodie</h3>
                     <span class="products__price">Rp.150.000,00</span>
@@ -388,10 +388,10 @@
         <i class='bx bx-up-arrow-alt scrollup__icon'></i>
     </a>
     <!--=============== SWIPER JS ===============-->
-    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../../public/js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
-    <script src="../assets/js/main.js"></script>
+    <script src="../../public/js/main.js"></script>
 </body>
 
 </html>
