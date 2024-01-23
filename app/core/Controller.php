@@ -5,4 +5,3 @@ class Controller{
         require_once('../app/view/' . $view . '.php');
     }
 }
-?>

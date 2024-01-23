@@ -1,4 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="../public/img/favicon/favicon.ico" type="image/x-icon">
+
+    <!--=============== BO  1XICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="../public/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../public/css/styles.css">
+
+    <title>JCLothes || Make Your Ideas Into Reality <?= $data ?></title>
+</head>
+
+<body>
     <!--==================== HEADER ====================-->
     <!-- headerrrrr -->
     <header class="header" id="header">
@@ -11,9 +33,9 @@
                         <a href="#home" class="nav__link active-link">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../design/index.php" class="nav__link">Design Own &dtrif;</a>
+                        <a href="../design/index" class="nav__link">Design Own &dtrif;</a>
                         <ul class="dropdown ">
-                            <li><a href="design/index.html">T-Shirt</a></li>
+                            <li><a href="/public/design">T-Shirt</a></li>
                             <li><a href="#">Long Sleeves</a></li>
                             <li><a href="#">Hoodie</a></li>
                             <li><a href="#">Sweater</a></li>
@@ -22,7 +44,7 @@
                             <li><a href="#">Varsity</a></li>
                         </ul>
                             <li class="nav__item">
-                                <a href="../product/index.php" class="nav__link">Our Product</a>
+                                <a href="../product" class="nav__link">Our Product</a>
                             </li>
                             <!-- <li class="nav__item">
                                 <a href="contact/index.html" class="nav__link">Login</a>

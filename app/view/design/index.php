@@ -81,9 +81,8 @@
     <div class="cart__container">
       <article class="cart__card">
         <div class="cart__box">
-          <img src="../assets/img/product/tshirtDesign.png" alt="" class="cart__img">
+          <img src="../public/img/product/tshirtDesign.png" alt="" class="cart__img">
         </div>
-
         <div class="cart__details">
           <h3 class="cart__title">T-Shirt</h3>
           <span class="cart__price">Rp.55.000,00</span>
@@ -111,7 +110,7 @@
       <!-- cart -->
       <article class="cart__card">
         <div class="cart__box">
-          <img src="../assets/img/product/Longsleeves.png" alt="" class="cart__img">
+          <img src="../public/img/product/Longsleeves.png" alt="" class="cart__img">
         </div>
 
         <div class="cart__details">
@@ -318,10 +317,10 @@
     <i class='bx bx-up-arrow-alt scrollup__icon'></i>
   </a>
   <!--=============== SWIPER JS ===============-->
-  <script src="../assets/js/swiper-bundle.min.js"></script>
+  <script src="../public/js/swiper-bundle.min.js"></script>
 
   <!--=============== MAIN JS ===============-->
-  <script src="../assets/js/main.js"></script>
+  <script src="../public/js/main.js"></script>
 </body>
 
 </html>
