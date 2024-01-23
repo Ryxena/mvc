@@ -34,7 +34,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../home/index.html" class="nav__link ">Home</a>
+                        <a href="../home/" class="nav__link ">Home</a>
                     </li>
                     <li class="nav__item">
                         <a href="../design/" class="nav__link ">Design Own &dtrif;</a>
@@ -48,11 +48,9 @@
                             <li><a href="#">Varsity</a></li>
                         </ul>
                     <li class="nav__item">
-                        <a href="index.html     " class="nav__link active-link">Our Product</a>
+                        <a href="../product/" class="nav__link active-link">Our Product</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="../contact/index.html" class="nav__link">Login</a>
-                    </li>
+
                 </ul>
 
                 <!-- close tab navbar responsive -->

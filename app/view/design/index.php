@@ -30,7 +30,7 @@
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="../index.html" class="nav__link ">Home</a>
+            <a href="../home/index" class="nav__link ">Home</a>
           </li>
           <li class="nav__item">
             <a href="#" class="nav__link active-link">Design Own &dtrif;</a>
@@ -44,7 +44,7 @@
               <li><a href="clothType/varsity.html">Varsity</a></li>
             </ul>
           <li class="nav__item">
-            <a href="../product/index.html" class="nav__link">Our Product</a>
+            <a href="../product/index" class="nav__link">Our Product</a>
           </li>
           <li class="nav__item">
             <a href="../contact/index.html" class="nav__link">Login</a>
