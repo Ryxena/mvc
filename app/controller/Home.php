@@ -9,11 +9,5 @@ class Home extends Controller {
         $this->view('home/index');
         $this->view('template/footer');
     }
-
-    public function design() {
-        // $this->view('template/header', $this->data['title']);
-        $this->view('design/index');
-        $this->view('template/footer');
-    }
     
 }

@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="../public/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../public/img/favicon/favicon.ico" type="image/x-icon">
 
     <!--=============== BO  1XICONS ===============-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="../public/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../../public/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="../public/css/styles.css">
+    <link rel="stylesheet" href="../../public/css/styles.css">
 
     <title>JCLothes || Make Your Ideas Into Reality <?= $data ?></title>
 </head>
@@ -25,7 +25,7 @@
     <!-- headerrrrr -->
     <header class="header" id="header">
         <nav class="nav container primary-navigation">
-            <a href="#" class="nav__logo "><img src="../public/img/logoBlackMode.png" alt="">JCLothes</a>
+            <a href="#" class="nav__logo "><img src="../../public/img/logoBlackMode.png" alt="">JCLothes</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -35,13 +35,13 @@
                     <li class="nav__item">
                         <a href="../design/index" class="nav__link">Design Own &dtrif;</a>
                         <ul class="dropdown ">
-                            <li><a href="/public/design">T-Shirt</a></li>
-                            <li><a href="#">Long Sleeves</a></li>
-                            <li><a href="#">Hoodie</a></li>
-                            <li><a href="#">Sweater</a></li>
-                            <li><a href="#">Crewneck</a></li>
-                            <li><a href="#">Jacket</a></li>
-                            <li><a href="#">Varsity</a></li>
+                            <li><a href="../design/">T-Shirt</a></li>
+                            <li><a href="../design/">Long Sleeves</a></li>
+                            <li><a href="../design/">Hoodie</a></li>
+                            <li><a href="../design/">Sweater</a></li>
+                            <li><a href="../design/">Crewneck</a></li>
+                            <li><a href="../design/">Jacket</a></li>
+                            <li><a href="public/design/">Varsity</a></li>
                         </ul>
                             <li class="nav__item">
                                 <a href="../product" class="nav__link">Our Product</a>
@@ -82,7 +82,7 @@
         <div class="cart__container">
             <article class="cart__card">
                 <div class="cart__box">
-                    <img src="../public/img/product/tshirtDesign.png" alt="" class="cart__img">
+                    <img src="../../public/img/product/tshirtDesign.png" alt="" class="cart__img">
                 </div>
 
                 <div class="cart__details">
@@ -109,7 +109,7 @@
 
             <article class="cart__card">
                 <div class="cart__box">
-                    <img src="../public/img/product/satoru.png" alt="" class="cart__img">
+                    <img src="../../public/img/product/satoru.png" alt="" class="cart__img">
                 </div>
 
                 <div class="cart__details">
@@ -135,7 +135,7 @@
 
             <article class="cart__card">
                 <div class="cart__box">
-                    <img src="../public/img/product/Longsleeves.png" alt="" class="cart__img">
+                    <img src="../../public/img/product/Longsleeves.png" alt="" class="cart__img">
                 </div>
 
                 <div class="cart__details">
@@ -173,7 +173,7 @@
         <section class="home" id="home">
             <div class="home__container container grid">
                 <div class="home__img-bg">
-                    <img src="../public/img/product/satoru.png" alt="PageHome" class="home__img">
+                    <img src="../../public/img/product/satoru.png" alt="PageHome" class="home__img">
                 </div>
 
                 <div class="home__social">
@@ -217,7 +217,7 @@
                 <article class="featured__card">
                     <span class="featured__tag">Design It</span>
 
-                    <img src="../public/img/product/tshirtDesign.png" class="featured__img">
+                    <img src="../../public/img/product/tshirtDesign.png" class="featured__img">
 
                     <div class="featured__data">
                         <h3 class="featured__title">T-Shirt</h3>
@@ -231,7 +231,7 @@
                 <article class="featured__card">
                     <span class="featured__tag">Design It</span>
 
-                    <img src="../public/img/product/Longsleeves.png" alt="" class="featured__img">
+                    <img src="../../public/img/product/Longsleeves.png" alt="" class="featured__img">
 
                     <div class="featured__data">
                         <h3 class="featured__title">Long Sleeves</h3>
@@ -244,7 +244,7 @@
                 <article class="featured__card">
                     <span class="featured__tag">Design It</span>
 
-                    <img src="../public/img/product/hoodieDesign.png" class="featured__img">
+                    <img src="../../public/img/product/hoodieDesign.png" class="featured__img">
 
                     <div class="featured__data">
                         <h3 class="featured__title">Hoodie</h3>
@@ -276,7 +276,7 @@
                 </div>
 
                 <div class="story__images">
-                    <img src="../public/img/product/satoru.png" alt="" class="story__img">
+                    <img src="../../public/img/product/satoru.png" alt="" class="story__img">
                     <div class="story__square"></div>
                 </div>
             </div>
@@ -290,7 +290,7 @@
 
             <div class="products__container grid">
                 <article class="products__card">
-                    <img src="../public/img/product/satoru.png" alt="" class="products__img">
+                    <img src="../../public/img/product/satoru.png" alt="" class="products__img">
 
                     <h3 class="products__title">Satoru</h3>
                     <span class="products__price">Rp.50.000,00</span>
@@ -301,7 +301,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../public/img/product/hoodieGojo.png" alt="" class="products__img">
+                    <img src="../../public/img/product/hoodieGojo.png" alt="" class="products__img">
 
                     <h3 class="products__title">Gojo Design</h3>
                     <span class="products__price">Rp.150.000,00</span>
@@ -312,7 +312,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../public/img/product/varsity.png" alt="" class="products__img">
+                    <img src="../../public/img/product/varsity.png" alt="" class="products__img">
 
                     <h3 class="products__title">Varsity Custom</h3>
                     <span class="products__price">Rp.450.000,00</span>
@@ -323,7 +323,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../public/img/product/MOON1.png" alt="" class="products__img">
+                    <img src="../../public/img/product/MOON1.png" alt="" class="products__img">
 
                     <h3 class="products__title">Moon Tshirt</h3>
                     <span class="products__price">Rp.55.000,00</span>
@@ -334,7 +334,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../public/img/product/ghostrideHoodie.png" alt="" class="products__img">
+                    <img src="../../public/img/product/ghostrideHoodie.png" alt="" class="products__img">
 
                     <h3 class="products__title">Ghost Ride Hoodie</h3>
                     <span class="products__price">Rp.150.000,00</span>
@@ -361,7 +361,7 @@
                             <h3 class="testimonial__date">Sep 2 23</h3>
 
                             <div class="testimonial__perfil">
-                                <img src="../public/img/testimonial1.jpg" alt="" class="testimonial__perfil-img">
+                                <img src="../../public/img/testimonial1.jpg" alt="" class="testimonial__perfil-img">
 
                                 <div class="testimonial__perfil-data">
                                     <span class="testimonial__perfil-name">Ikhsan D Saktiawan</span>
@@ -382,7 +382,7 @@
                             <h3 class="testimonial__date">Sep 2 23</h3>
 
                             <div class="testimonial__perfil">
-                                <img src="../public/img/testimonial1.jpg" alt="" class="testimonial__perfil-img">
+                                <img src="../../public/img/testimonial1.jpg" alt="" class="testimonial__perfil-img">
 
                                 <div class="testimonial__perfil-data">
                                     <span class="testimonial__perfil-name">Joko Jondo</span>
@@ -401,7 +401,7 @@
                             <h3 class="testimonial__date">Sep 2 23</h3>
 
                             <div class="testimonial__perfil">
-                                <img src="../public/img/testimonial1.jpg" alt="" class="testimonial__perfil-img">
+                                <img src="../../public/img/testimonial1.jpg" alt="" class="testimonial__perfil-img">
 
                                 <div class="testimonial__perfil-data">
                                     <span class="testimonial__perfil-name">Jamaludin</span>
@@ -423,7 +423,7 @@
                     <div class="testimonial__square">
                         <div class="testimonial_comment_container">
                             <div class="testimonial_comment_head">
-                                <img src="../public/img/testimonial1.jpg" alt="">
+                                <img src="../../public/img/testimonial1.jpg" alt="">
                                 <div class="rating-container">
                                     <h3>Add a comment</h3>
                                     <div class="rating">
@@ -446,7 +446,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="../public/img/testimonial.png" alt="" class="testimonial__img">
+                    <img src="../../public/img/testimonial.png" alt="" class="testimonial__img">
                 </div>
             </div>
         </section>
@@ -463,7 +463,7 @@
                         <article class="new__card swiper-slide">
                             <span class="new__tag">The Best Of The Week</span>
 
-                            <img src="../public/img/product/satoru.png" alt="" class="new__img">
+                            <img src="../../public/img/product/satoru.png" alt="" class="new__img">
 
                             <div class="new__data">
                                 <h3 class="new__title">Satoru</h3>
@@ -476,7 +476,7 @@
                         <article class="new__card swiper-slide">
                             <span class="new__tag">New</span>
 
-                            <img src="../public/img/product/EARTH1.png" alt="" class="new__img">
+                            <img src="../../public/img/product/EARTH1.png" alt="" class="new__img">
 
                             <div class="new__data">
                                 <h3 class="new__title">Earth 001</h3>
@@ -489,7 +489,7 @@
                         <article class="new__card swiper-slide">
                             <span class="new__tag">New</span>
 
-                            <img src="../public/img/product/hoodieTampakBelakang.png" class="new__img">
+                            <img src="../../public/img/product/hoodieTampakBelakang.png" class="new__img">
 
                             <div class="new__data">
                                 <h3 class="new__title">Gojo Hoodie</h3>

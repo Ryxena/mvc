@@ -8,17 +8,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="../public/img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../../public/img/favicon/favicon.ico" type="image/x-icon">
 
         <!--=============== BO  1XICONS ===============-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="../public/css/swiper-bundle.min.css">
-
+        <link rel="stylesheet" href="../../public/css/swiper-bundle.min.css">
+        
         <!--=============== CSS ===============-->
         <!-- <link rel="stylesheet" href="css/search.scss"> -->
-        <link rel="stylesheet" href="../public/css/styleproduct.css">
+        <link rel="stylesheet" href="../../public/css/styleproduct.css">
         <!--=============== FONT AWESOME ===============-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
             integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
