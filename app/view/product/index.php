@@ -34,7 +34,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link ">Home</a>
+                        <a href="../home/index.html" class="nav__link ">Home</a>
                     </li>
                     <li class="nav__item">
                         <a href="../design/" class="nav__link ">Design Own &dtrif;</a>
