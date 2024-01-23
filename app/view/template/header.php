@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../public/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="../public/css/styles.css">
+    <link rel="stylesheet" href="../../public/css/styles.css">
 
     <title>JCLothes || Make Your Ideas Into Reality <?= $data ?></title>
 </head>
