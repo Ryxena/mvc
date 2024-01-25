@@ -33,7 +33,7 @@
             <a href="../home/index" class="nav__link ">Home</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link active-link">Design Own &dtrif;</a>
+            <a href="../design/index" class="nav__link active-link">Design Own &dtrif;</a>
             <ul class="dropdown ">
               <li><a href="#">T-Shirt</a></li>
               <li><a href="clothType/longSleeves.html">Long Sleeves</a></li>
@@ -44,11 +44,11 @@
               <li><a href="clothType/varsity.html">Varsity</a></li>
             </ul>
           <li class="nav__item">
-            <a href="../product/index" class="nav__link">Our Product</a>
+            <a href="../product/" class="nav__link">Our Product</a>
           </li>
-          <li class="nav__item">
+          <!-- <li class="nav__item">
             <a href="../contact/index.html" class="nav__link">Login</a>
-          </li>
+          </li> -->
         </ul>
 
         <!-- close tab navbar responsive -->
