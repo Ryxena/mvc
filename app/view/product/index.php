@@ -8,17 +8,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="../../public/img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../public/img/favicon/favicon.ico" type="image/x-icon">
 
         <!--=============== BO  1XICONS ===============-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="../../public/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="../public/css/swiper-bundle.min.css">
         
         <!--=============== CSS ===============-->
         <!-- <link rel="stylesheet" href="css/search.scss"> -->
-        <link rel="stylesheet" href="../../public/css/styleproduct.css">
+        <link rel="stylesheet" href="../public/css/styleproduct.css">
         <!--=============== FONT AWESOME ===============-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
             integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -29,7 +29,7 @@
 <body>
     <header class="header" id="header">
         <nav class="nav container primary-navigation">
-            <a href="#" class="nav__logo "><img src="../../public/img/logoBlackMode.png" class="nav__logo">JCLothes</a>
+            <a href="#" class="nav__logo "><img src="../public/img/logoBlackMode.png" class="nav__logo">JCLothes</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -83,7 +83,7 @@
         <div class="cart__container">
             <article class="cart__card">
                 <div class="cart__box">
-                    <img src="../../public/img/product/tshirtDesign.png" alt="" class="cart__img">
+                    <img src="../public/img/product/tshirtDesign.png" alt="" class="cart__img">
                 </div>
 
                 <div class="cart__details">
@@ -112,7 +112,7 @@
             <!-- cart -->
             <article class="cart__card">
                 <div class="cart__box">
-                    <img src="../../public/img/product/Longsleeves.png" alt="" class="cart__img">
+                    <img src="../public/img/product/Longsleeves.png" alt="" class="cart__img">
                 </div>
 
                 <div class="cart__details">
@@ -246,7 +246,7 @@
             <section class="products section container" id="products">
                         <div class="products__container grid">
                 <article class="products__card">
-                    <img src="../../public/img/product/satoru.png" alt="" class="products__img">
+                    <img src="../public/img/product/satoru.png" alt="" class="products__img">
 
                     <h3 class="products__title">Satoru</h3>
                     <span class="products__price">Rp.50.000,00</span>
@@ -257,7 +257,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../../public/img/product/hoodieGojo.png" alt="" class="products__img">
+                    <img src="../public/img/product/hoodieGojo.png" alt="" class="products__img">
 
                     <h3 class="products__title">Gojo Design</h3>
                     <span class="products__price">Rp.150.000,00</span>
@@ -268,7 +268,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../../public/img/product/varsity.png" alt="" class="products__img">
+                    <img src="../public/img/product/varsity.png" alt="" class="products__img">
 
                     <h3 class="products__title">Varsity Custom</h3>
                     <span class="products__price">Rp.450.000,00</span>
@@ -279,7 +279,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../../public/img/product/MOON1.png" alt="" class="products__img">
+                    <img src="../public/img/product/MOON1.png" alt="" class="products__img">
 
                     <h3 class="products__title">Moon Tshirt</h3>
                     <span class="products__price">Rp.55.000,00</span>
@@ -290,7 +290,7 @@
                 </article>
 
                 <article class="products__card">
-                    <img src="../../public/img/product/ghostrideHoodie.png" alt="" class="products__img">
+                    <img src="../public/img/product/ghostrideHoodie.png" alt="" class="products__img">
 
                     <h3 class="products__title">Ghost Ride Hoodie</h3>
                     <span class="products__price">Rp.150.000,00</span>
@@ -386,10 +386,10 @@
         <i class='bx bx-up-arrow-alt scrollup__icon'></i>
     </a>
     <!--=============== SWIPER JS ===============-->
-    <script src="../../public/js/swiper-bundle.min.js"></script>
+    <script src="../public/js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
-    <script src="../../public/js/main.js"></script>
+    <script src="../public/js/main.js"></script>
 </body>
 
 </html>

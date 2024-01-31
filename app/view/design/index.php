@@ -8,16 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="../../public/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../public/img/favicon/favicon.ico " type="image/x-icon">
 
     <!--=============== BO  1XICONS ===============-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="../../public/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../public/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="../../public/css/design.css">
+    <link rel="stylesheet" href="../public/css/design.css">
 
     <title>JCLothes || Create Your Des</title>
   </head>
@@ -25,7 +25,7 @@
 <body>
   <header class="header" id="header">
     <nav class="nav container primary-navigation">
-      <a href="#" class="nav__logo "><img src="../../public/img/logoBlackMode.png" class="nav__logo">JCLothes</a>
+      <a href="#" class="nav__logo "><img src="../public/img/logoBlackMode.png" class="nav__logo">JCLothes</a>
 
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
@@ -44,7 +44,7 @@
               <li><a href="clothType/varsity.html">Varsity</a></li>
             </ul>
           <li class="nav__item">
-            <a href="../product/" class="nav__link">Our Product</a>
+            <a href="../product/ind" class="nav__link">Our Product</a>
           </li>
           <!-- <li class="nav__item">
             <a href="../contact/index.html" class="nav__link">Login</a>

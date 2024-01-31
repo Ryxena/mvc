@@ -6,7 +6,8 @@ class Home extends Controller {
     public function Index(){
         // echo "existed";
         // $this->view('template/header', $this->data['title']);
-        $this->view('home/index');
+        $data['barangs'] = $this->model('Barang_model')->getBarang();
+        $this->view('home/index', $data);
         $this->view('template/footer');
     }
     
