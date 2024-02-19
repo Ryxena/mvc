@@ -17,7 +17,7 @@
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="../public/css/styles.css">
-    
+
     <title>JCLothes || Make Your Ideas Into Reality <?= $data ?></title>
 </head>
 
@@ -44,13 +44,13 @@
                             <li><a href="../design/">Jacket</a></li>
                             <li><a href="public/design/">Varsity</a></li>
                         </ul>
-                            <li class="nav__item">
-                                <a href="../public/product" class="nav__link">Our Product</a>
-                            </li>
-                            <!-- <li class="nav__item">
+                    <li class="nav__item">
+                        <a href="../public/product" class="nav__link">Our Product</a>
+                    </li>
+                    <!-- <li class="nav__item">
                                 <a href="contact/index.html" class="nav__link">Login</a>
                             </li> -->
-                        </ul>
+                </ul>
 
                 <!-- close tab navbar responsive -->
 
@@ -74,16 +74,16 @@
 
             <div>
                 <?php
-                if(isset($_SESSION["login_status"])) { ?>
+                if (isset($_SESSION["login_status"])) { ?>
                     <span><?= $_SESSION["name"]; ?></span>
                     <span><a href="../public/auth/logout">LOGOUT</a></span>
-                <?php } else { ?>   
+                <?php } else { ?>
                     <ul>
                         <li><a href="auth/login">Login</a></li>
                         <li><a href="auth/register">Register</a></li>
                     </ul>
                 <?php
-                } 
+                }
                 ?>
             </div>
         </nav>
@@ -305,17 +305,17 @@
             </h2>
 
             <div class="products__container grid">
-                <?php foreach($data['barangs'] as $data):  ?>
+                <?php foreach ($data['barangs'] as $data) :  ?>
                     <article class="products__card">
-                    <img src=<?= "../public/img/product/" . $data["gambar"] ?> alt="" class="products__img">
+                        <img src=<?= "../public/img/product/" . $data["gambar"] ?> alt="" class="products__img">
 
-                    <h3 class="products__title"><?= $data["nama_barang"] ?></h3>
-                    <span class="products__price"><?= "Rp " . number_format($data["harga"],0,',','.') ?></span>
+                        <h3 class="products__title"><?= $data["nama_barang"] ?></h3>
+                        <span class="products__price"><?= "Rp " . number_format($data["harga"], 0, ',', '.') ?></span>
 
-                    <button class="products__button">
-                        <i class='bx bx-shopping-bag'></i>
-                    </button>
-                </article>
+                        <a href="pesan/<?= $data["id"] ?>" class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </a>
+                    </article>
                 <?php endforeach; ?>
                 <!-- <article class="products__card">
                     <img src="../public/img/product/satoru.png" alt="" class="products__img">
@@ -553,4 +553,3 @@
             </div>
         </section>
     </main>
-

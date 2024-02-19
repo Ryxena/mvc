@@ -11,6 +11,7 @@
 <body>
     <div class="container">
         <div class="row">
+            <h1><?= $data['id_barang']; ?></h1>
             <div class="col-md-12">
                 <a href="{{ url('/home') }}" class="btn btn-primary">Back</a>
             </div>
