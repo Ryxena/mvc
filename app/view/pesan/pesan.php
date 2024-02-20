@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <a href="{{ url('/home') }}" class="btn btn-primary">Back</a>
+            <a href="../public/design/" class="btn btn-primary">Back</a>
         </div>
         <div class="col-md-12">
             <div class="card">

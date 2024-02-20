@@ -35,4 +35,14 @@ class Pesanan_model
         $this->db->query("SELECT barangs.nama_barang FROM pesanan_details JOIN barangs ON pesanan_details.barang_id = barangs.id WHERE pesanan_details.pesanan_id = $pesanan_id;");
         return $this->db->resultSet();
     }
+
+    public function createPesanan() {
+        $date = date('Y-m-d', time());
+        $datetime = date('Y-m-d', time());
+        //insert into `pesanans` (`user_id`, tanggal, status, jumlah_harga, updated_at, created_at) values (?, ?, ?, ?, ?, ?)
+    }
+
+    public function hasPesanan($pesanan_id, $iduser){
+        $this->db->query("SELECT * FROM pesanan_details WHERE barang_id =  AND pesanan_id =  LIMIT 1;");
+    }
 }
