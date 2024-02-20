@@ -24,6 +24,8 @@
 <body>
     <!--==================== HEADER ====================-->
     <!-- headerrrrr -->
+    <?php var_dump($_SESSION['datas']); ?>
+    <?php $datas = $_SESSION['datas']; ?>
     <header class="header" id="header">
         <nav class="nav container primary-navigation">
             <a href="#" class="nav__logo "><img src="../public/img/logoBlackMode.png" alt="">JCLothes</a>
@@ -124,29 +126,19 @@
             </article>
 
             <article class="cart__card">
-                <div class="cart__box">
-                    <img src="../public/img/product/satoru.png" alt="" class="cart__img">
-                </div>
-
-                <div class="cart__details">
-                    <h3 class="cart__title">Long Sleeves Custom<class="cart__price">Rp. 70.000,00</span>
-
-                            <div class="cart__amount">
-                                <div class="cart__amount-content">
-                                    <span class="cart__amount-box">
-                                        <i class='bx bx-minus'></i>
-                                    </span>
-
-                                    <span class="cart__amount-number">1</span>
-
-                                    <span class="cart__amount-box">
-                                        <i class='bx bx-plus'></i>
-                                    </span>
+                <?php foreach ($datas as $item) : ?>
+                    <?php var_dump($item); ?>
+                    <div class="cart__box">
+                        <img src="../public/img/product/<?= $item['pesanan_image'] ?>" alt="" class="cart__img">
+                    </div>
+                    <div class="cart__details">
+                        <h3 class="cart__title"><?= $item['pesanan_name'] ?><class="cart__price">Rp. 70.000,00</span>
+                                <div class="cart__amount">
+                                    <div class="cart__amount-content">
+                                    </div>
                                 </div>
-
-                                <i class='bx bx-trash-alt cart__amount-trash'></i>
-                            </div>
-                </div>
+                    </div>
+                <?php endforeach; ?>
             </article>
 
             <article class="cart__card">
@@ -311,8 +303,7 @@
 
                         <h3 class="products__title"><?= $data["nama_barang"] ?></h3>
                         <span class="products__price"><?= "Rp " . number_format($data["harga"], 0, ',', '.') ?></span>
-
-                        <a href="pesan/<?= $data["id"] ?>" class="products__button">
+                        <a href="Pesanan/<?= $data["id"] ?>" class="products__button">
                             <i class='bx bx-shopping-bag'></i>
                         </a>
                     </article>
