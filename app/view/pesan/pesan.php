@@ -81,7 +81,7 @@
     // Dapatkan elemen input
     let inputElement = document.getElementById("myNumber");
     // Dapatkan nilai saat ini
-    var nilaiSaatIni = parseInt(inputElement.value = 1);
+    let nilaiSaatIni = parseInt(inputElement.value = 1);
     let input2 = document.getElementById('input2');
     input2.value = nilaiSaatIni;
     // nilai stok dari php

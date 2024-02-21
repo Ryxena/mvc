@@ -24,8 +24,13 @@
 <body>
     <!--==================== HEADER ====================-->
     <!-- headerrrrr -->
-    <?php var_dump($_SESSION['datas']); ?>
-    <?php $datas = $_SESSION['datas']; ?>
+    <?php
+        $datas = $_SESSION['datas'];
+        // for ($i=0; $i < count($datas['pesanan_image']); $i++) { 
+            // var_dump($datas);
+        // }
+
+    ?>
     <header class="header" id="header">
         <nav class="nav container primary-navigation">
             <a href="#" class="nav__logo "><img src="../public/img/logoBlackMode.png" alt="">JCLothes</a>
@@ -99,42 +104,46 @@
 
         <div class="cart__container">
             <article class="cart__card">
-                <?php for ($i = 0; $i < count($datas['pesanan_image']); $i++) : ?>
-                    <!-- <img src=<?= "../public/img/product/" . $datas['pesanan_image'][$i]['gambar'] ?> alt="">
-                    <p><?= $datas['pesanan_detail'][$i]['jumlah_harga'] ?> </p> -->
-                    <article class="cart__card">
-                        <div class="cart__box">
-                            <img src=<?= "../public/img/product/" . $datas['pesanan_image'][$i]['gambar'] ?> alt="" class="cart__img">
-                        </div>
-
-                        <div class="cart__details">
-                            <h3 class="cart__title">T-Shirt</h3>
-                            <span class="cart__price"><?= $datas['pesanan_detail'][$i]['jumlah_harga'] ?></span>
-
-                            <div class="cart__amount">
-                                <div class="cart__amount-content">
-                                    <span class="cart__amount-box">
-                                        <i class='bx bx-minus'></i>
-                                    </span>
-
-                                    <span class="cart__amount-number"><?= $datas['pesanan_detail'][$i]['jumlah'] ?></span>
-
-                                    <span class="cart__amount-box">
-                                        <i class='bx bx-plus'></i>
-                                    </span>
-                                </div>
-
-                                <i class='bx bx-trash-alt cart__amount-trash'></i>
+                <?php if (isset($datas['pesanan_utama'])) : ?>
+                    <?php for ($i = 0; $i < count($datas['pesanan_image']); $i++) : ?>
+                        <article class="cart__card">
+                            <div class="cart__box">
+                                <img src=<?= "../public/img/product/" . $datas['pesanan_image'][$i]['gambar'] ?> alt="" class="cart__img">
                             </div>
-                        </div>
-                    </article>
-                <?php endfor; ?>
+
+                            <div class="cart__details">
+                                <h3 class="cart__title">T-Shirt</h3>
+                                <span class="cart__price"><?= $datas['pesanan_detail'][$i]['jumlah_harga'] ?></span>
+
+                                <div class="cart__amount">
+                                    <div class="cart__amount-content">
+                                        <span class="cart__amount-box">
+                                            <i class='bx bx-minus'></i>
+                                        </span>
+
+                                        <span class="cart__amount-number"><?= $datas['pesanan_detail'][$i]['jumlah'] ?></span>
+
+                                        <span class="cart__amount-box">
+                                            <i class='bx bx-plus'></i>
+                                        </span>
+                                    </div>
+
+                                    <i class='bx bx-trash-alt cart__amount-trash'></i>
+                                </div>
+                            </div>
+                        </article>
+                    <?php endfor; ?>
+                <?php endif; ?>
             </article>
         </div>
-
         <div class="cart__prices">
-            <span class="cart__prices-item"><?= count($datas['pesanan_image']) ?></span>
-            <span class="cart__prices-total">Rp. <?= number_format($datas['pesanan_utama'][0]['jumlah_harga'], 2, ',', '.'); ?></span>
+            <?php if (isset($datas['pesanan_utama'])) : ?>
+                <span class="cart__prices-item"><?= count($datas['pesanan_image']) ?></span>
+                <span class="cart__prices-total">Rp. <?= number_format($datas['pesanan_utama'][0]['jumlah_harga'], 2, ',', '.'); ?></span>
+                <?php else : ?>
+                    <span class="cart__prices-item">Kosong</span>
+                    <span class="cart__prices-total">Kosong</span>                    
+            <?php endif; ?>
         </div>
     </div>
 
@@ -260,13 +269,13 @@
             </h2>
 
             <div class="products__container grid">
-                <?php foreach ($data['barangs'] as $data) :  ?>
+                <?php foreach ($data['barangs'] as $barang) :  ?>
                     <article class="products__card">
-                        <img src=<?= "../public/img/product/" . $data["gambar"] ?> alt="" class="products__img">
+                        <img src=<?= "../public/img/product/" . $barang["gambar"] ?> alt="" class="products__img">
 
-                        <h3 class="products__title"><?= $data["nama_barang"] ?></h3>
-                        <span class="products__price"><?= "Rp " . number_format($data["harga"], 0, ',', '.') ?></span>
-                        <a href="Pesanan/<?= $data["id"] ?>" class="products__button">
+                        <h3 class="products__title"><?= $barang["nama_barang"] ?></h3>
+                        <span class="products__price"><?= "Rp " . number_format($barang["harga"], 0, ',', '.') ?></span>
+                        <a href="Pesanan/<?= $barang["id"] ?>" class="products__button">
                             <i class='bx bx-shopping-bag'></i>
                         </a>
                     </article>

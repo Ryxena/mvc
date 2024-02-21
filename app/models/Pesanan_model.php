@@ -36,12 +36,27 @@ class Pesanan_model
         return $this->db->resultSet();
     }
 
-    public function createPesanan() {
-        $date = date('Y-m-d', time());
-        $datetime = date('Y-m-d', time());
+    public function createDetailPesanan($idbarang, $pesanan_id, $ukuran, $jumlah, $harga) {
         //insert into `pesanans` (`user_id`, tanggal, status, jumlah_harga, updated_at, created_at) values (?, ?, ?, ?, ?, ?)
+        $this->db->query("INSERT INTO `pesanan_details` (barang_id, pesanan_id, ukuran, jumlah, jumlah_harga) VALUES (:barang_id, :pesanan_id, :ukuran, :jumlah, :jumlah_harga);");
+        $this->db->bind(":barang_id", $idbarang);
+        $this->db->bind(":pesanan_id", $pesanan_id);
+        $this->db->bind(":ukuran", $ukuran);
+        $this->db->bind(":jumlah", $jumlah);
+        $this->db->bind(":jumlah_harga", $harga);
+        $this->db->execute();
     }
-
+    //insert into `pesanans` (`user_id`, tanggal, status, jumlah_harga, updated_at, created_at) values (?, ?, ?, ?, ?, ?)
+    public function createPesanan($userid, $harga) {
+        $date = date('Y-m-d', time());
+        $this->db->query("INSERT INTO `pesanans` (`user_id`, `tanggal`, `status`, `jumlah_harga`) VALUES (:id, :tanggal, :status, :jumlah_harga);");
+        $this->db->bind(":id", $userid);
+        $this->db->bind(":tanggal", $date);
+        $this->db->bind(":status", 0);
+        $this->db->bind(":jumlah_harga", $harga);
+        $this->db->resultSet();
+        return $this->db->lastid();
+    }
     public function hasPesanan($pesanan_id, $iduser){
         $this->db->query("SELECT * FROM pesanan_details WHERE barang_id =  AND pesanan_id =  LIMIT 1;");
     }
